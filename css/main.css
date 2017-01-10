@@ -3,23 +3,77 @@ header {
   margin-right: -15px; }
 
 .banner {
-  height: 100px;
-  background: blue; }
+  height: 200px;
+  background: transparent; }
 
 .nav {
-  padding-right: 20px; }
+  font-family: 'DroidArabicKufiRegular';
+  padding-right: 20px;
+  transition: all 1s ease; }
   .nav ul {
     /*	border: dotted 1px #000;*/
     margin: 0;
     padding: 0;
     list-style: none; }
   .nav li {
-    display: inline-block; }
+    display: inline-block;
+    padding: 7px 0px;
+    position: relative; }
+    .nav li ul {
+      display: none;
+      position: absolute;
+      background: #FFF;
+      margin-top: 5px;
+      z-index: 99;
+      box-shadow: 2px 2px 5px #CCC;
+      min-width: 200px;
+      transition: all .5s ease; }
+      .nav li ul li {
+        display: block; }
+    .nav li:hover ul {
+      display: block; }
   .nav a {
     display: block;
     padding: 6px 12px;
     text-decoration: none;
     font-weight: 700; }
+
+.fixed {
+  position: fixed;
+  background: #FFF;
+  box-shadow: 1px 2px 2px 2px #AAA;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%; }
+
+#news {
+  background: #FFF;
+  min-height: 30px;
+  line-height: 29px;
+  max-width: 1000px;
+  max-height: 39px;
+  padding: 0;
+  margin: auto;
+  box-shadow: 2px 2px 5px #CCC;
+  position: relative; }
+  #news:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    height: 100%;
+    width: 5px;
+    background: red; }
+  #news div {
+    display: inline-block;
+    padding: 5px 20px; }
+  #news .title {
+    font-family: 'DroidArabicKufiRegular';
+    background: red;
+    color: #FFF; }
+  #news .content {
+    font-family: 'lotus light', serif;
+    font-size: 1.2em; }
 
 .article {
   font-family: 'Scheherazade', serif;

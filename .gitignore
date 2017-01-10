@@ -1,4 +1,7 @@
 .DS_Store
-.sass-cache\
-img\
+.sass-cache/
+*.css.map
+img/
 readme_back.md
+CHANGELOG.md
+LICENSE.md

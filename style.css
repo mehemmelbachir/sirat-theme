@@ -15,8 +15,16 @@
     MAIN
 \*------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Scheherazade');
+ /*@import url('https://fonts.googleapis.com/css?family=Amiri'); */
+@import url('https://fontlibrary.org/face/droid-arabic-kufi');
 @import url('css/main.css');
+
+
+
+@font-face{
+	font-family: "lotus light";
+	src: url('fonts/lotus.ttf');
+}
 
 
 /* global box-sizing */
@@ -34,12 +42,14 @@ html {
 	/*font-size:62.5%;*/	
 }
 body {
-	font-family: 'Scheherazade', serif;
-	font-size: 1.4em;
-/*	font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
 	color:#444;
 }
 
+p {
+	font-family: "lotus light",serif;
+	font-size: 1.5em;
+	text-align: justify;
+}
 
 /* clear */
 .clear:before,

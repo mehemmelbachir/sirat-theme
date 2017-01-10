@@ -1,7 +1,6 @@
 <!-- sidebar -->
 <aside class="sidebar" role="complementary">
 
-	<h1>This is left sidebar</h1>
 
 	<?php //get_template_part('searchform'); ?>
 

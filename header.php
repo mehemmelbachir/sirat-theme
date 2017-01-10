@@ -37,7 +37,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
 
 		<!-- wrapper -->
-		<div class="container-fluid">
+		<div class="container-fluid" style="background: #d6eeff">
 			<!-- header -->
 			<header class="" role="banner">
 			<!--	<header class="header clear" role="banner" style="border: solid 1px #000"> -->
@@ -65,6 +65,7 @@
 						<?php html5blank_nav(); ?>
 					</nav>
 					<!-- /nav -->
+
 
 			</header>
 			
